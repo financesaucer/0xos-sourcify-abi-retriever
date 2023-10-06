@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES6", // Set the target ECMAScript version to ES6
+      "module": "CommonJS", // Specify the module system (e.g., CommonJS, ES6, etc.)
+      "outDir": "./dist", // Output directory for the transpiled files
+      "rootDir": "./src", // Root directory where your TypeScript files are located
+      "strict": true, // Enable strict type-checking options
+      "esModuleInterop": true, // Enable ES module interop
+      "forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names
+      "declaration": true, // Generate corresponding .d.ts files
+      "removeComments": true, // Remove comments from the output
+      "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+      "skipLibCheck": true, // Skip type checking of declaration files
+      "strictNullChecks": true, // Enable strict null checks
+      "typeRoots": ["./node_modules/@types", "./src/@types"] // Include type definitions from these directories
+    },
+    "include": ["src/**/*.ts", "test/test.ts"], // Include TypeScript files to be compiled
+    "exclude": ["node_modules"] // Exclude directories from compilation
+  }
