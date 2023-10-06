@@ -1,10 +1,14 @@
 {
   "name": "@0xos/sourcify-abi-retriever",
-  "git": "https://github.com/financesaucer/0xos-sourcify-abi-retriever.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/financesaucer/0xos-sourcify-abi-retriever.git"
+  },
   "version": "1.0.0",
   "main": "dist/index.js",
   "author": {
     "name": "financesaucer",
+    "email": "financesaucer@proton.me",
     "org": "0xos"
   },
   "license": "MIT",
