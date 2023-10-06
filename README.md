@@ -1,6 +1,6 @@
 # Sourcify ABI Retriever
 
-![Sourcify ABI Retriever](./logo.png)
+![Sourcify ABI Retriever](./logo.png){ width=60px height=60px }
 
 Retrieve Verifyied Smart Contract ABIs Effortlessly From Sourcify with @0xos/sourcify-abi-retriever
 
