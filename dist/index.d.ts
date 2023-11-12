@@ -23,5 +23,5 @@ declare function checkIfIsVerified(contractInfo: CheckParams): Promise<{
         chainIds: string[];
     }[];
 }>;
-declare function retrieveMetadataFile(chainId: string, address: string, server: string): Promise<string | null>;
+declare function retrieveMetadataFile(chainId: string, address: string, server: string): Promise<string | null | undefined>;
 export { checkAndRetrieveABI, checkIfIsVerified, retrieveMetadataFile };

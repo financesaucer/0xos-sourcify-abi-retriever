@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/financesaucer/0xos-sourcify-abi-retriever.git"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "author": {
     "name": "financesaucer",
@@ -18,5 +18,9 @@
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
     "test": "node ./dist/test.js"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
   }
 }

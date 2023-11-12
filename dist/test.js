@@ -13,11 +13,11 @@ const index_1 = require("./index");
 function runTests() {
     return __awaiter(this, void 0, void 0, function* () {
         const contractInfo = {
-            address: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
+            address: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
             chainIds: [5, 1, 56],
         };
         const contractInfoNoChain = {
-            address: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
+            address: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
         };
         try {
             const abiResult = yield (0, index_1.checkAndRetrieveABI)(contractInfo);

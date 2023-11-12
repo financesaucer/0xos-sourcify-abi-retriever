@@ -128,7 +128,7 @@ async function checkIfIsVerified(contractInfo: CheckParams) {
     }
 }
 
-async function retrieveMetadataFile(chainId: string, address: string, server: string): Promise<string | null> {
+async function retrieveMetadataFile(chainId: string, address: string, server: string): Promise<string | null | undefined> {
     try {
         const apiUrl = `${server}/files/tree/any/${chainId}/${address}`;
 
@@ -144,7 +144,7 @@ async function retrieveMetadataFile(chainId: string, address: string, server: st
             throw new Error('Metadata file not found for the provided address and chain ID.');
         }
     } catch (error) {
-        throw new Error(`Failed to retrieve metadata file: ${error}`);
+        console.log(error)
     }
 }
 

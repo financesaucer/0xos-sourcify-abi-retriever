@@ -122,7 +122,7 @@ function retrieveMetadataFile(chainId, address, server) {
             }
         }
         catch (error) {
-            throw new Error(`Failed to retrieve metadata file: ${error}`);
+            console.log(error);
         }
     });
 }
